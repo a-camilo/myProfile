@@ -52,7 +52,7 @@ body{
 #resume{
     background-color: white;
     color: black;
-    height: 450px;   
+    height: 400px;   
 }
 .myself{
     padding: 20px 10px;
@@ -60,6 +60,7 @@ body{
 }
 @media(min-width:400px){
     #resume{
+        overflow: scroll;
         max-width: 400px;
         justify-content: center;
         margin: 0px auto;
