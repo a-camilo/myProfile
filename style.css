@@ -63,11 +63,9 @@ body{
 }
 @media(min-width:320px){
     #resume{
-        overflow: scroll;
         max-width: 400px;
-        height: 400px;
+        height: 550px;
         justify-content: center;
-        margin: 0px auto;
-        
+        margin: 0px auto;  
     }
 }
