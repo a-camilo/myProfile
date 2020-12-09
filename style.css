@@ -18,7 +18,7 @@ body{
 .conteudo_link ul{
     font-size: 20pt;
     list-style-type: none;
-    padding: 50px;
+    padding: 20px 50px 30px 50px;
 }
 .conteudo_link li a{
     color: white;
@@ -52,7 +52,6 @@ body{
 }
 #resume{
     
-    flex-wrap: wrap;
     background-color: white;
     color: black;
     height: auto;   
@@ -63,8 +62,9 @@ body{
 }
 @media(min-width:320px){
     #resume{
+        overflow: scroll;
         max-width: 400px;
-        height: 550px;
+        height: 306px;
         justify-content: center;
         margin: 0px auto;  
     }
