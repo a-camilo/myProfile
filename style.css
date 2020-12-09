@@ -41,15 +41,18 @@ body{
     text-align: justify;
     padding: 0px 10px 0px;
     margin: 0;
+    font-size: 12pt;
 }
 #information  li a{
     color:black;
-    font-size: 12pt;
+    text-decoration: none;
 }
 #information a:hover{
     color: red;
 }
 #resume{
+    
+    flex-wrap: wrap;
     background-color: white;
     color: black;
     height: auto;   
@@ -58,12 +61,13 @@ body{
     padding: 20px 10px;
     text-align: justify;
 }
-@media(min-width:400px){
+@media(min-width:320px){
     #resume{
-    
+        overflow: scroll;
         max-width: 400px;
+        height: 400px;
         justify-content: center;
         margin: 0px auto;
-       
+        
     }
 }
