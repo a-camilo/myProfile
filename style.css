@@ -9,6 +9,7 @@ body{
     font-size: 14pt;    
 }
 #conteudo{
+    
     color: white;
     display: block;
     justify-content: center;
@@ -52,7 +53,7 @@ body{
 }
 #resume{
     
-    background-color: white;
+    background-color:rgb(245, 245, 201);
     color: black;
     height: auto;   
 }
